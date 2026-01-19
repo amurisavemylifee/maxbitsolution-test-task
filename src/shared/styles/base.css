@@ -1,0 +1,33 @@
+:root {
+  --color-background: #0b0b0f;
+  --color-surface: #111119;
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #c3c3c3;
+  --color-border: rgba(255, 255, 255, 0.16);
+  --color-accent: #ffffff;
+
+  font-family: 'Inter', 'Segoe UI', sans-serif;
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}
